@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Command Center Privacy</title>
+<style>
+  :root { --bg: #fbfaf7; --fg: #1d1d1b; --muted: #5d5b55; --line: #e3e0d8; --link: #2457a6; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #151513; --fg: #ecebe6; --muted: #a8a59c; --line: #33322e; --link: #8db4f0; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 20px 64px; }
+  h1 { font-size: 30px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 32px; }
+  h2 { font-size: 19px; margin: 32px 0 8px; }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  a { color: var(--link); }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy policy</h1>
+  <p class="sub">Command Center · last updated November 23, 2026</p>
+
+  <p>Command Center is a personal tool used only by its owner, on his own home computer. This page explains
+  what it does with Google account data.</p>
+
+  <h2>Who uses it</h2>
+  <p>Only the owner. It is not offered to the public, and no one else can sign in to it.</p>
+
+  <h2>What Google data it reads</h2>
+  <ul>
+    <li><strong>Google Calendar</strong> (read-only): upcoming events, to mention in the daily briefing.</li>
+    <li><strong>Gmail</strong>: reads messages the owner sends to himself (and a short list of approved family
+      senders and school notices) to turn them into briefing items, and adds a label to messages it has
+      already read out. It cannot send, delete or forward email.</li>
+    <li><strong>Google Drive</strong> (read-only): downloads voice recordings from one folder the owner chose.</li>
+    <li><strong>Calendars it creates itself</strong>: it can add events only to the two calendars it made.
+      It cannot change any other calendar.</li>
+  </ul>
+
+  <h2>Where the data goes</h2>
+  <ul>
+    <li>Everything is stored on the owner's own computer. Nothing is uploaded to a server run by this project,
+      because there isn't one.</li>
+    <li>Short summaries are written with an AI model (Anthropic's Claude) so the briefing reads naturally;
+      only the text needed for that day's briefing is sent, under that provider's terms.</li>
+    <li>The finished briefing is saved as a private podcast episode in the owner's own Spotify account.</li>
+    <li>Google data is never sold, shared with anyone else, or used for advertising.</li>
+  </ul>
+
+  <h2>Google API Services User Data Policy</h2>
+  <p>Command Center's use of information received from Google APIs adheres to the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+  including the Limited Use requirements.</p>
+
+  <h2>Removing access</h2>
+  <p>Access can be removed at any time at
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. The saved sign-in
+  and all downloaded data live only on the owner's computer and are deleted from there.</p>
+
+  <h2>Contact</h2>
+  <p>Questions go to the developer contact listed on the app's Google sign-in screen.</p>
+
+  <footer><a href="index.html">Command Center</a> · Privacy policy</footer>
+</main>
+</body>
+</html>

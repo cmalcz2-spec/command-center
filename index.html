@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Command Center</title>
+<style>
+  :root { --bg: #fbfaf7; --fg: #1d1d1b; --muted: #5d5b55; --line: #e3e0d8; --link: #2457a6; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #151513; --fg: #ecebe6; --muted: #a8a59c; --line: #33322e; --link: #8db4f0; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 20px 64px; }
+  h1 { font-size: 30px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 32px; }
+  h2 { font-size: 19px; margin: 32px 0 8px; }
+  a { color: var(--link); }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Command Center</h1>
+  <p class="sub">A personal daily assistant that runs on one home computer, for one family.</p>
+
+  <p>Command Center is a private, self-hosted tool. Each morning it puts together a short spoken briefing
+  (calendar, reminders, local news, school notices) and shows the same information on a web page that only
+  the owner's own devices can reach. It is not a public service: nobody can sign up for it, and it has no
+  users other than its owner.</p>
+
+  <h2>Why it signs in to Google</h2>
+  <p>It reads the owner's own Google Calendar, Gmail and one Google Drive folder so the briefing can mention
+  today's events, emails the owner sent to himself as reminders, and voice notes recorded on his watch.
+  It can also manage two calendars that it creates itself. It cannot send email, and it does not change or
+  delete anything in Gmail or Drive other than adding one label to emails it has already read out.</p>
+
+  <p>See the <a href="privacy.html">privacy policy</a> for exactly what it reads and where that data stays.</p>
+
+  <footer>Command Center · personal project · <a href="privacy.html">Privacy policy</a></footer>
+</main>
+</body>
+</html>
